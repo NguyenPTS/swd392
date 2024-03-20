@@ -15,7 +15,7 @@ const EmployeeUpdate = () => {
         try {
             await logout();
             navigate('/');
-            console.log('You are logged out')
+            console.log('You are logged out!')
         } catch (e) {
             console.log(e.message);
         }
